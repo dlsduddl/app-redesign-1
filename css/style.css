@@ -37,6 +37,12 @@ align-items:center;
 .justify-end {
   justify-content: flex-end;
 }
+.gap-30px {
+  gap:30px;
+}
+.margin-b-30px{
+margin-bottom:30px;
+}
 
 /* 커스텀 */
 @font-face {
@@ -120,7 +126,7 @@ html {
   background-color: #f2f2f2;
 }
 .section-2-1 {
-  height:400px;
+  height:350px;
 }
 
 .overview {
@@ -139,15 +145,94 @@ html {
 }
 .survey-wrap {
   width: 1200px;
-  height: 400px;
+  height: 370px;
   background-color:#FFFAF2;
   border-radius:50px;
   border:5px dashed #FF884B;
 }
 .section-2-2 > .survey-wrap > .survey {
-  background-color: green;
   margin: 60px;
+  height:350px;
 }
 .section-2-2 > .survey-wrap > .survey > .survey-q {
   font-size: 1.3rem;
+  font-weight:bold;
+}
+.section-2-2 > .survey-wrap > .survey > .survey-a {
+  margin: 5px;
+  font-weight:bold;
+  font-size:1.1rem;
+}
+.section-2-2 > .survey-wrap > .survey > .survey-a > span {
+  font-size:0.9rem;
+  background: linear-gradient(to top, #ff5454 50%, #fffaf2 50%);
+}
+.survey-a-stick {
+  height: 30px;
+  background-color: #959595;
+  border-radius:10px;
+}
+.survey-a-stick-1 {
+  width: 300px;
+}
+.survey-a-stick-2 {
+  width: 30px;
+}
+.survey-a-stick-3 {
+  width: 104px;
+}
+.survey-a-stick-4 {
+  width: 196px;
+}
+.survey-a-stick-5 {
+  width: 224px;
+}
+.survey-a-stick-6 {
+  width: 32px;
+}
+
+/* section3 */
+.section-3 {
+  width: 1200px;
+  margin-right:auto;
+  margin-left: auto;
+}
+.section-3-title {
+  height: 250px;
+  margin-left: 10px;
+}
+.section-3-title > .section-3-e {
+  margin:0;
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+.section-3-title > .section-3-q {
+  font-size:1.3rem;
+  margin-top: 40px;
+  font-weight:bold;
+}
+.a-box-wrap {
+margin-top: -50px;
+}
+.a-box {
+  width: 360px;
+  height: 190px;
+  background-color:#f2f2f2;
+  border-radius:50px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+ justify-content:center;  
+  position:relative;
+   border:5px double #FF884B;
+}
+.a-box > p:first-child {
+  font-size:1.1rem;
+  padding:10px;
+}
+.age-name {
+  position:absolute;
+  top:140px;
+  font-size: 1rem;
 }

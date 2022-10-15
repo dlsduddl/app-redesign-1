@@ -11,45 +11,86 @@
 </head>
 
 <body>
-  <section class="section section-1">
-    <div>
-    <div class="bg-img">
-      <img src="https://i.postimg.cc/x1Y5p9dS/Frame-14.png" alt="배경이미지">
-    </div>
-      
-      <div class="section-1-txt">
-        <p class="txt-content">더욱 더 편리해진 여행길,</p>
-        <p class="txt-title">고속버스 Tmoney</p>
-      </div>
-      
-      <div class="section-1-main-img flex">
-        <div><img src="https://i.postimg.cc/fLdp0Xfh/3.png" alt=""></div>
-        <div><img src="https://i.postimg.cc/6pQPfFfc/image.png" alt=""></div>
-        <div><img src="https://i.postimg.cc/fbtg6XF0/image.png" alt=""></div>
-      </div>
+<!-- 제이쿼리 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- 풀페이지 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+<!-- aos 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<section class="section section-1">
+  <div>
+  <div class="bg-img">
+    <img src="https://i.postimg.cc/x1Y5p9dS/Frame-14.png" alt="배경이미지">
+  </div>
+    
+    <div class="section-1-txt">
+      <p class="txt-content">더욱 더 편리해진 여행길,</p>
+      <p class="txt-title">고속버스 Tmoney</p>
     </div>
     
-  </section>
+    <div class="section-1-main-img flex" >
+      <div><img src="https://i.postimg.cc/fLdp0Xfh/3.png" alt=""></div>
+      <div><img src="https://i.postimg.cc/6pQPfFfc/image.png" alt=""></div>
+      <div><img src="https://i.postimg.cc/fbtg6XF0/image.png" alt=""></div>
+    </div>
+  </div>
   
-  <section class="section section-2">
-    <div class="section-2-1 flex flex-col align-center justify-center">
-      <p class="overview">OVERVIEW</p>
-      <p class="overview-txt">여행길, 출장길, 집에가는 길을 위한 여정</p>
-      <p class="overview-txt">지도로 경로찾고 고속버스앱으로 예매하면 되지만, 좀 더 <span>간단했으면 좋겠어!</span></p> 
-       <p class="overview-txt"><span>경로검색, 예매까지 한번에</span> 할 수는 없을까?</p>
+</section>
+
+<section class="section section-2">
+  <div class="section-2-1 flex flex-col align-center justify-center">
+    <p class="overview">OVERVIEW</p>
+    <p class="overview-txt">여행길, 출장길, 집에 가는 길을 위한 수많은 여정</p>
+    <p class="overview-txt">지도로 경로 찾고 고속버스앱으로 예매하면 되지만, 좀 더 <span>간단했으면 좋겠어!</span></p> 
+     <p class="overview-txt"><span>경로 검색, 예매까지 한 번에</span> 할 수는 없을까?</p>
+    </div>
+  
+  <div class="section-2-2 flex flex-col align-center justify-center">
+    <p class="survey-t">앱리디자인을 위한 고속버스 어플리케이션 사용여부 설문조사입니다.</p>
+    <div class="survey-wrap flex align-center justify-center">
+      <div class="survey survey-1">
+        <p class="survey-q">Q. 고속버스앱을 사용해보신적이 있나요?</p>
+        <p class="survey-a">A. 사용해 본 적 있다. <span>89%</span></p>
+        <div class="survey-a-stick survey-a-stick-1"></div>
+        <p class="survey-a">A. 사용해 본 적 없다. <span>11%</span></p>
+        <div class="survey-a-stick survey-a-stick-2"></div>
       </div>
-    
-    <div class="section-2-2 flex flex-col align-center justify-center">
-      <p class="survey-t">앱리디자인을 위한 고속버스 어플리케이션 사용여부 설문조사입니다.</p>
-      <div class="survey-wrap flex align-center justify-center">
-        <div class="survey survey-1">
-          <p class="survey-q">Q. 고속버스앱을 사용해보신적이 있나요?</p>
-        </div>
-        <div class="survey survey-2">
-          <p class="survey-q">Q. 사용해보셨다면 만족도는 어느정도인가요?</p>
-        </div>
+      
+      <div class="survey survey-2">
+        <p class="survey-q">Q. 사용해보셨다면 만족도는 어느정도인가요?</p>
+        <p class="survey-a">A. 매우 만족 <span>16%</span></p>
+        <div class="survey-a-stick survey-a-stick-3"></div>
+         <p class="survey-a">A. 만족 <span>34%</span></p>
+        <div class="survey-a-stick survey-a-stick-4"></div>
+        <p class="survey-a">A. 불만족 <span>45%</span></p>
+        <div class="survey-a-stick survey-a-stick-5"></div>
+                <p class="survey-a">A. 매우 불만족 <span>5%</span></p>
+        <div class="survey-a-stick survey-a-stick-6"></div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<section class="section section-3">
+  <div class="section-3-title flex flex-col justify-center"><p class="section-3-e">사용 만족도에 불만족, 매우 불만족 답변자에게만 질문하여<br> 6명의 답변을 채택했습니다.</p>
+    <p class="section-3-q">Q. 불만족, 매우 불만족을 선택하셨다면 이유가 무엇인가요?</p>
+  </div>
+  <div class="a-box-wrap"  data-aos="fade-up" data-aos-duration="2000">
+    <div class="flex justify-center gap-30px margin-b-30px">
+    <div class="a-box"><p>예매 QR코드가 너무 느리게 켜져서 버스타는데 지연돼요</p>
+      <p class="age-name">26 / 석우</p>
+    </div>
+    <div class="a-box"><p>고속버스만! 예매할 수 있는 어플이네요</p><p class="age-name">31 / 민지</p></div>
+    <div class="a-box"><p>로딩이 너무 느려요ㅠㅠ</p><p class="age-name">21 / 지연</p></div></div>
+    <div class="flex justify-center gap-30px">
+    <div class="a-box"><p>예매확인하려고 앱켜면 업데이트해서 기다려야돼고 뒤에 사람도 기다리고 눈치보여서 혼났네요;;</p><p class="age-name">33 / 정민</p></div>
+    <div class="a-box"><p>즐겨찾기 버튼이 없어서 자주사용하는 노선도 매번 직접 검색해야함.</p><p class="age-name">28 / 유리</p></div>
+    <div class="a-box"><p>어플들어갈때마다 이벤트 화면이 나와서 불편해요 끄는 방법 없나요?</p><p class="age-name">32 / 민철</p></div></div>
+  </div>
+</section>
 </body>
 </html>
