@@ -120,7 +120,15 @@ html {
     margin-top: 100px;
   }
 }
-
+.txt-expl {
+  position:absolute;
+  top: 700px;
+  left: 100px;
+}
+.txt-expl > p {
+font-size:0.8rem;
+color: #FFFAF2;
+}
 /* section2 */
 .section-2 {
   background-color: #f2f2f2;
@@ -316,7 +324,7 @@ width: 280px;
 
 /* section5 */
 .section-5 {
-  background-color:pink;
+  position:relative;
 }
 .section-5-wrap {
   position:relative;
@@ -325,12 +333,12 @@ width: 280px;
   margin-left: auto;
 }
 
-/* .section-5 .bg-img > img {
+.section-5 .bg-img > img {
   width:100vw;
   height:100vh;
   object-fit:cover;
   z-index:-1;
-} */
+}
 
 .section-5 > div > .section5-img {
 position:absolute;
@@ -424,4 +432,99 @@ position:absolute;
 }
 .section5-img7.click-active {
   transition: 4s;
+}
+.section5-m {
+  font-size:1.1rem;
+  border-radius:50px;
+  border: 2px dashed #FF884B;
+  position:absolute;
+  width: 100%;
+}
+.section5-m > p {
+  padding: 0px 10px 0px 10px;
+}
+.section5-m-1{
+  top:-100px;
+  left:10px;
+}
+.section5-m-2 {
+  bottom:-80px;
+  width:300px;
+}
+.section5-m-3 {
+  top:-100px;
+  left:0px;
+ width: 290px;
+}
+.section5-m-4 {
+  bottom:-80px;
+  width:280px;
+}
+
+/* section6 */
+.section-6 {
+  position:relative;
+}
+.section-6 .bg-img > img {
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  z-index:-1;
+}
+.section-6-img-wrap {
+  margin-right:auto;
+  margin-left:auto;
+  position:relative;
+  background-color:blue;
+}
+.section-6-img > img {
+ width: 274px;
+}
+.section-6-img {
+  position:absolute;
+}
+.section-6-img-1 {
+  top:50px;
+  left:0;
+  z-index:1;
+}
+.section-6-img-2 {
+  top:100px;
+  left:200px;
+  z-index:2;
+}
+.section-6-img-3 {
+  top:150px;
+  left:400px;
+  z-index:3;
+}
+.section-6-img-4 {
+  top: 200px;
+  left: 600px;
+  z-index:4;
+}
+.section-6-img-5 {
+  top:250px;
+  left:800px;
+  z-index:5;
+}
+.section-6-img-6 {
+  top: 200px;
+  left: 1000px;
+  z-index:4;
+}
+.section-6-img-7 {
+    top: 150px;
+  left: 1200px;
+  z-index:3;
+}
+.section-6-img-8 {
+    top: 100px;
+  left: 1400px;
+  z-index:2;
+}
+.section-6-img-9 {
+    top: 50px;
+  left: 1600px;
+  z-index:1;
 }
