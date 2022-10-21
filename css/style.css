@@ -475,7 +475,6 @@ position:absolute;
   margin-right:auto;
   margin-left:auto;
   position:relative;
-  background-color:blue;
 }
 .section-6-img > img {
  width: 274px;
@@ -527,4 +526,47 @@ position:absolute;
     top: 50px;
   left: 1600px;
   z-index:1;
+}
+
+/* section7 */
+.section-7 {
+  position:relative;
+}
+.section-7 .bg-img > img {
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  z-index:-1;
+}
+.section-7-1 {
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-bottom:50px;
+  z-index:1;
+}
+.section-7-1 > .design-s {
+  font-size: 1.5rem;
+  color:#FF884B;
+  font-weight:bold;
+}
+.section-7-1 > .color,
+.section-7-2 > .typography {
+  font-size: 1.2rem;
+  font-weight:bold;
+  margin:0;
+}
+.section-7-1 > .color-con,
+.section-7-2 > .typography-con {
+  font-size:1.2rem;
+  margin:0;
+}
+.section-7-1 > img,
+.section-7-2 > img {
+  width: 700px;
+}
+.section-7-2 {
+  top:500px;
+  margin-left: 250px;
+  position:absolute;
 }
