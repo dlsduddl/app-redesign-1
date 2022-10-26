@@ -291,6 +291,9 @@ margin-top: -50px;
 .solution-txt-1 {
   font-weight:bold;
   font-size:1.2rem;
+  background-color:#f2f2f2;
+  border-radius:20px;
+  padding:12px;
 }
 .solution-txt-1-b {
   background:linear-gradient(to top,#FF884B 50%, #fffaf2 50%);
@@ -307,7 +310,7 @@ margin-top: -50px;
 }
 .solution-img3 {
   position:absolute;
-  left: 960px;
+  left: 980px;
 }
 .solution-img3 > img{
   width: 350px;
@@ -315,7 +318,7 @@ margin-top: -50px;
 
 .solution-img5 {
   position:absolute;
-  top: 320px;
+  top: 330px;
   left: 500px;
 }
 .solution-img5 > img {
@@ -328,7 +331,7 @@ width: 280px;
 }
 .section-5-wrap {
   position:relative;
-  width: 1600px;
+/*   width: 1600px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -364,22 +367,22 @@ position:absolute;
 }
 .section-5 .section5-img4 {
   top: 150px;
-  left: 650px;
+  left: 580px;
   z-index:2;
 }
 .section-5 .section5-img5 {
   top: 150px;
-  left: 850px;
+  left: 900px;
   z-index:2;
 }
 .section-5 .section5-img6 {
   top: 150px;
-  left: 1050px;
+  left: 1220px;
   z-index:2;
 }
 .section-5 .section5-img7 {
   top: 150px;
-  left: 1250px;
+  left: 1550px;
   z-index:2;
 }
 .click-button-wrap-1 {
@@ -462,36 +465,17 @@ position:absolute;
 }
 
 /* section6 */
-.section-6 {
-  position:relative;
+.section-6-1,
+.section-6-2 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:#FFFAF2;
 }
-.section-6 .bg-img > img {
-  width:100vw;
-  height:100vh;
-  object-fit:cover;
-  z-index:-1;
-}
-.section-6-img-wrap {
-  margin-right:auto;
-  margin-left:auto;
-  position:relative;
-}
-.section-6-img{
-  margin-left: -50px;
-}
+
 .section-6-img > img {
- width: 274px;
-}
-.section-6-img-box-1 {
-  position:absolute;
-  top: 250px;
-  left:110px;
-  z-index:1;
-}
-.section-6-img-box-2 {
-  position:absolute;
-  top:50px;
-  right:50px;
+ width: 310px;
+  padding: 20px;
 }
 
 
@@ -551,18 +535,31 @@ position:absolute;
 }
 .section-8-img {
   position:absolute;
-  top:50%;
+  top:45%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 .section-8-img > img {
   width:95%;
 }
-.section-8-txt {
+.section-8-logo {
   position:absolute;
-  top:90%;
+  top:92%;
   left:50%;
   transform: translate(-50%,-50%);
-  color:#fffaf2;
-  font-size:1.5rem;
+}
+.section-8-logo > img {
+  width: 100px;
+
+}
+
+/* section9 */
+.section-9 {
+  background-color: #3f3f3f;
+}
+.section-9 > p {
+  padding:0;
+  margin:0;
+  font-size:1.8rem;
+  color: ivory;
 }
